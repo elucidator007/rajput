@@ -24,11 +24,11 @@ export default function Home() {
       
       <div className="homepage-content flex flex-col items-center justify-between w-full h-full league-spartan-heading">
         <div className="text-lg text-white">RAJPUT STUDIOS</div>
-        <div className="text-9xl text-white">SAHIL RAJPUT</div>
+        <div className="text-9xl text-white">Neha RAJPUT</div>
         <div className="flex flex-col items-center justify-center gap-5 leading-5 tracking-widest text-white">
-          <div>LADY KILLER AND VANISHER</div>
+          <div>FASHION DESIGNER</div>
           <div>CREATIVE BY WAY OF CREATOR</div>
-          <div>PANCHKULA | GURGOAN | THAILAND</div>
+          <div>PANCHKULA | GURGOAN | DELHI</div>
         </div>
         <div className="flex gap-5">
           <button 
