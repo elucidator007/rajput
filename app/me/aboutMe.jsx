@@ -48,17 +48,18 @@ const AboutMe = () => {
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               <p>
-                With over a decade of experience in haute couture and ready-to-wear fashion, 
-                I&apos;ve dedicated my life to creating pieces that empower and inspire. My journey 
-                in fashion began in the vibrant streets of Paris, where I honed my craft under 
-                the guidance of renowned designers.
+                I am Neha Rajput, a fashion design professional based in Chandigarh, Punjab, India. 
+                My academic foundation includes a Bachelor's degree in Fashion Design from NIIFT Mohali, 
+                complemented by specialized studies in fashion and textile design during my high school education. 
+                This comprehensive background has equipped me with a deep understanding of both the creative and technical 
+                aspects of the fashion industry.
               </p>
               
               <p>
-                Every collection I create is a narrative of elegance, sustainability, and 
-                innovation. I believe in fashion that not only makes you look spectacular but 
-                also tells your unique story. My designs blend traditional craftsmanship with 
-                contemporary aesthetics, creating timeless pieces for the modern woman.
+                My core competencies lie in digital fashion design and development. I am proficient in creating 
+                3D garments using Clo3D, producing detailed fashion illustrations with Krita, developing comprehensive 
+                tech packs using Adobe Illustrator, and designing intricate prints with Adobe Photoshop. My expertise 
+                across these platforms enables me to deliver high-quality digital assets for various fashion applications
               </p>
 
               <p>

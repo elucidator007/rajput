@@ -66,20 +66,20 @@ export const EXPLORE_ITEMS = [
 
   export const ACHIEVEMENTS = [
     {
-      number: "10+",
-      title: "Years of Experience",
+      number: "800+",
+      title: "Digital Illustration's experience",
       description: "In haute couture and ready-to-wear fashion"
     },
     {
-      number: "50+",
-      title: "Fashion Shows",
-      description: "Across major fashion capitals"
+      // number: "50+",
+      title: "Tools & technologies",
+      description: "Well versed with tools like Clo 3d, Adobe photoshop, Illustrator, Indesign, Krita, Cad, etc."
     },
     {
-      number: "1000+",
-      title: "Happy Clients",
-      description: "From celebrities to everyday fashionistas"
+      // number: "3",
+      title: "3 Internships & Freelance experience",
+      description: "Did internships from Reliance Jinaam dresses, Active Clothing and freelance projects like Crestiqu"
     }
   ]
 
-  export const MY_IMAGE = "https://images.unsplash.com/photo-1724128196341-7b850c781a26?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  export const MY_IMAGE = "/images/about_me_photo.jpg"
