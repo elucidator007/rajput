@@ -1,11 +1,19 @@
-'use client'
+'use client';
 import React, { useState } from 'react';
 import { NAVBAR_ITEMS } from '@/utility/constants';
 import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 
-const Navbar = () => {
+const Navbar = ({ exploreRef, footerRef }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to handle smooth scrolling
+  const handleScroll = (ref) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth' });
+      setIsMenuOpen(false);
+    }
+  };
 
   return (
     <nav className="bg-white shadow-md relative">
@@ -30,6 +38,10 @@ const Navbar = () => {
                 <div
                   key={item.id}
                   className="relative group cursor-pointer"
+                  onClick={() => {
+                    if (item.label === 'MY WORK') handleScroll(exploreRef);
+                    if (item.label === 'GET IN TOUCH') handleScroll(footerRef);
+                  }}
                 >
                   <div className="flex flex-col items-center">
                     <span className="text-[#A64D79] font-medium tracking-wide text-sm group-hover:text-[#6A1E55] transition-colors duration-300 ease-in-out">
@@ -49,11 +61,7 @@ const Navbar = () => {
               className="text-[#A64D79] hover:text-[#6A1E55] transition-colors duration-300"
               aria-label="Toggle menu"
             >
-              {isMenuOpen ? (
-                <X className="h-6 w-6" />
-              ) : (
-                <Menu className="h-6 w-6" />
-              )}
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
           </div>
         </div>
@@ -67,7 +75,10 @@ const Navbar = () => {
               <div
                 key={item.id}
                 className="relative group cursor-pointer"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={() => {
+                  if (item.label === 'MY WORK') handleScroll(exploreRef);
+                  if (item.label === 'GET IN TOUCH') handleScroll(footerRef);
+                }}
               >
                 <div className="flex flex-col items-start">
                   <span className="text-[#A64D79] font-medium tracking-wide text-sm group-hover:text-[#6A1E55] transition-colors duration-300 ease-in-out">

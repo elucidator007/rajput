@@ -43,7 +43,7 @@ const Hero = () => {
         {/* Welcome text */}
         <h1 className="mb-6 text-7xl font-bold text-white opacity-0"
             style={{
-              fontFamily: "'Cormorant Garamond', serif",
+              fontFamily: "'Roboto', sans-serif",
               animation: 'fadeInUp 1s ease-out forwards',
               letterSpacing: '0.05em'
             }}>

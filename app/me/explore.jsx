@@ -63,10 +63,12 @@ const ExploreSection = () => {
 
               <a 
                 href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 text-[#6A1E55] hover:text-[#3B1C32] transition-colors duration-300"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
-                <span>Discover More</span>
+                <span>Discover details of this work</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
