@@ -49,7 +49,7 @@ const AboutMe = () => {
             >
               <p>
                 I am Neha Rajput, a fashion design professional based in Chandigarh, Punjab, India. 
-                My academic foundation includes a Bachelor's degree in Fashion Design from NIIFT Mohali, 
+                My academic foundation includes a Bachelor&apos;s degree in Fashion Design from NIIFT Mohali, 
                 complemented by specialized studies in fashion and textile design during my high school education. 
                 This comprehensive background has equipped me with a deep understanding of both the creative and technical 
                 aspects of the fashion industry.

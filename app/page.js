@@ -23,7 +23,7 @@ export default function Home() {
       <div className="homepage-bg-overlay"></div>
       
       <div className="homepage-content flex flex-col items-center justify-between w-full h-full league-spartan-heading">
-        <div className="text-lg text-white">Crestiqu's Author</div>
+        <div className="text-lg text-white">Crestiqu&apos;s Author</div>
         <div className="text-9xl text-white">Neha Rajput</div>
         <div className="flex flex-col items-center justify-center gap-5 leading-5 tracking-widest text-white">
           <div>FASHION DESIGNER</div>

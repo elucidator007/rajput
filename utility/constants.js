@@ -36,7 +36,7 @@ export const EXPLORE_ITEMS = [
       description: "Discover the essence of summer elegance with our latest collection. Featuring lightweight fabrics, breathable designs, and vibrant patterns that capture the spirit of the season.",
       image: "https://images.unsplash.com/photo-1605289355680-75fb41239154?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with actual image path
       category: "Collection",
-      link: "/collections/summer-2024"
+      link: "/sherlock.pdf"
     },
     {
       id: 2,
