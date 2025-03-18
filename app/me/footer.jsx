@@ -44,11 +44,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="text-white/80 w-5 h-5" />
-                <a href="tel:+91628XXXX" className="text-white/80">+916280903124</a>
+                <a href="tel:+916280903124" className="text-white/80">+916280903124</a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="text-white/80 w-5 h-5" />
-                <a href="mailto:nehaxxxx@gmail.com" className="text-white/80">neharajput6280@gmail.com</a>
+                <a href="mailto:neharajput6280@gmail.com" className="text-white/80">neharajput6280@gmail.com</a>
               </div>
             </div>
           </div>

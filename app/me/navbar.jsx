@@ -34,21 +34,29 @@ const Navbar = ({ exploreRef, footerRef }) => {
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-6">
-              {NAVBAR_ITEMS.map(item => (
-                <div
-                  key={item.id}
-                  className="relative group cursor-pointer"
-                  onClick={() => {
-                    if (item.label === 'MY WORK') handleScroll(exploreRef);
-                    if (item.label === 'GET IN TOUCH') handleScroll(footerRef);
-                  }}
-                >
-                  <div className="flex flex-col items-center">
-                    <span className="text-[#A64D79] font-medium tracking-wide text-sm group-hover:text-[#6A1E55] transition-colors duration-300 ease-in-out">
+              {NAVBAR_ITEMS.map((item) => (
+                <div key={item.id} className="relative group cursor-pointer">
+                  {item.url ? (
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#A64D79] font-medium tracking-wide text-sm group-hover:text-[#6A1E55] transition-colors duration-300 ease-in-out"
+                    >
+                      {item.label}
+                    </a>
+                  ) : (
+                    <span
+                      onClick={() => {
+                        if (item.label === 'MY WORK') handleScroll(exploreRef);
+                        if (item.label === 'GET IN TOUCH') handleScroll(footerRef);
+                      }}
+                      className="text-[#A64D79] font-medium tracking-wide text-sm group-hover:text-[#6A1E55] transition-colors duration-300 ease-in-out cursor-pointer"
+                    >
                       {item.label}
                     </span>
-                    <span className="h-0.5 w-0 bg-gradient-to-r from-[#3B1C32] to-[#6A1E55] group-hover:w-full transition-all duration-300 ease-in-out" />
-                  </div>
+                  )}
+                  <span className="h-0.5 w-0 bg-gradient-to-r from-[#3B1C32] to-[#6A1E55] group-hover:w-full transition-all duration-300 ease-in-out" />
                 </div>
               ))}
             </div>
@@ -71,21 +79,31 @@ const Navbar = ({ exploreRef, footerRef }) => {
       {isMenuOpen && (
         <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg py-4 px-6 z-50">
           <div className="flex flex-col space-y-4">
-            {NAVBAR_ITEMS.map(item => (
-              <div
-                key={item.id}
-                className="relative group cursor-pointer"
-                onClick={() => {
-                  if (item.label === 'MY WORK') handleScroll(exploreRef);
-                  if (item.label === 'GET IN TOUCH') handleScroll(footerRef);
-                }}
-              >
-                <div className="flex flex-col items-start">
-                  <span className="text-[#A64D79] font-medium tracking-wide text-sm group-hover:text-[#6A1E55] transition-colors duration-300 ease-in-out">
+            {NAVBAR_ITEMS.map((item) => (
+              <div key={item.id} className="relative group cursor-pointer">
+                {item.url ? (
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#A64D79] font-medium tracking-wide text-sm group-hover:text-[#6A1E55] transition-colors duration-300 ease-in-out"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                ) : (
+                  <span
+                    onClick={() => {
+                      if (item.label === 'MY WORK') handleScroll(exploreRef);
+                      if (item.label === 'GET IN TOUCH') handleScroll(footerRef);
+                      setIsMenuOpen(false);
+                    }}
+                    className="text-[#A64D79] font-medium tracking-wide text-sm group-hover:text-[#6A1E55] transition-colors duration-300 ease-in-out cursor-pointer"
+                  >
                     {item.label}
                   </span>
-                  <span className="h-0.5 w-0 bg-gradient-to-r from-[#3B1C32] to-[#6A1E55] group-hover:w-full transition-all duration-300 ease-in-out" />
-                </div>
+                )}
+                <span className="h-0.5 w-0 bg-gradient-to-r from-[#3B1C32] to-[#6A1E55] group-hover:w-full transition-all duration-300 ease-in-out" />
               </div>
             ))}
           </div>
