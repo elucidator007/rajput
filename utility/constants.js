@@ -65,7 +65,7 @@ export const EXPLORE_ITEMS = [
       description: "This kidswear project focuses on sustainable design, utilizing zero-waste techniques and incorporating khadi fabric to promote this traditional Indian textile.",
       image: "/images/kids_wear_profile.png",
       category: "College Project",
-      link: "/work_pdfs/denim_recycling.pdf"
+      link: "/work_pdfs/kids_wear.pdf"
     },
     {
       id: 6,
@@ -81,7 +81,7 @@ export const EXPLORE_ITEMS = [
       description: "During my internship at Jinaam Dresses, I contributed to the design process by developing original prints and silhouettes using Photoshop, and utilized Clo-3D for garment rendering.",
       image: "/images/jinaam_dress_profile.png",
       category: "Industry internship",
-      link: "/work_pdfs/reliance_internship.pdf"
+      link: "/work_pdfs/jinaam_dresses.pdf"
     },
     {
       id: 8,
