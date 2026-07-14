@@ -43,14 +43,14 @@ export const EXPLORE_ITEMS = [
       category: "College Project",
       link: "/work_pdfs/mens_wear.pdf"
     },
-    {
-      id: 3,
-      title: "Reliance",
-      description: "During my industry internship at Reliance, I developed a complete collection for the 2025 season, encompassing the entire fashion design process from initial trend forecasting to final design execution",
-      image: "/images/reliance_profile.png",
-      category: "Industry internship",
-      link: "/work_pdfs/reliance_internship.pdf"
-    },
+    // {
+    //   id: 3,
+    //   title: "Reliance",
+    //   description: "During my industry internship at Reliance, I developed a complete collection for the 2025 season, encompassing the entire fashion design process from initial trend forecasting to final design execution",
+    //   image: "/images/reliance_profile.png",
+    //   category: "Industry internship",
+    //   link: "/work_pdfs/reliance_internship.pdf"
+    // },
     {
       id: 4,
       title: "Atlaskin",
