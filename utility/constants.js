@@ -31,7 +31,7 @@ export const EXPLORE_ITEMS = [
       id: 1,
       title: "NEXT Kidswear (UK) Spring",
       description: "A leading UK-based fashion and lifestyle brand known for its high-quality, trend-driven apparel. Contributed to the development of commercial flat knit kidswear, from concept and CAD development to sampling, with a focus on quality, functionality, and market trends.",
-      image: "/images/next_kidwear.png",
+      image: "/images/next_kidwear_v1.png",
       category: "Centex Work",
       link: "/work_pdfs/next_kidwear_spring_summer.pdf" 
     },
@@ -55,7 +55,7 @@ export const EXPLORE_ITEMS = [
       id: 4,
       title: "NEXT Kidswear (UK)",
       description: "A leading UK-based fashion and lifestyle brand known for its high-quality, trend-driven apparel. Contributed to the development of commercial flat knit kidswear, from concept and CAD development to sampling, with a focus on quality, functionality, and market trends.",
-      image: "/images/next_kidwear.png",
+      image: "/images/next_kidwear_v1.png",
       category: "Centex Work",
       link: "/work_pdfs/next_kidwear.pdf" 
     },
