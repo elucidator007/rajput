@@ -48,7 +48,7 @@ const AboutMe = () => {
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               <p>
-                I'm Neha Rajput. I completed my B.Sc. in Fashion Design from NIIFT Mohali. Currently, I'm working as a Junior Designer at Centex Export in the creative design team, where I work on flat knitwear for international brands like Next, Zara, H&M, and Calvin Klein, Tommy Hilfiger, etc.
+                I&apos;m Neha Rajput. I completed my B.Sc. in Fashion Design from NIIFT Mohali. Currently, I&apos;m working as a Junior Designer at Centex Export in the creative design team, where I work on flat knitwear for international brands like Next, Zara, H&M, and Calvin Klein, Tommy Hilfiger, etc.
               </p>
               
               <p>
@@ -56,7 +56,7 @@ const AboutMe = () => {
               </p>
 
               <p>
-              I enjoy combining creativity with technical development, and recently I've also mastered Shima Seiki Apex Fiz, which has significantly improved my knitwear design capabilities. I'm now looking for an opportunity where I can contribute to a larger design team, learn more, and grow professionally.
+              I enjoy combining creativity with technical development, and recently I&apos;ve also mastered Shima Seiki Apex Fiz, which has significantly improved my knitwear design capabilities. I&apos;m now looking for an opportunity where I can contribute to a larger design team, learn more, and grow professionally.
               </p>
             </div>
 
