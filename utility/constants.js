@@ -47,7 +47,7 @@ export const EXPLORE_ITEMS = [
       id: 3,
       title: "Brandhouse",
       description: "Brandhouse is a Berlin, Germany-based (European) fashion house with two in-house brands—Vertere Berlin and On Vacation—known for their contemporary streetwear, lifestyle-focused collections, and high-quality European design.",
-      image: "/images/brand_house.jpeg",
+      image: "/images/brandhouse_v1.png",
       category: "Centex Work",
       link: "/work_pdfs/brandhouse.pdf"
     },
@@ -63,7 +63,7 @@ export const EXPLORE_ITEMS = [
       id: 5,
       title: "Floss flissa- Hand crochet",
       description: "Worked on true hand crochet developments, creating handcrafted designs with attention to texture, detailing, and finishing.",
-      image: "/images/floss_flisa.jpeg",
+      image: "/images/floss_flosa_v1.png",
       category: "Centex Work",
       link: "/work_pdfs/floss_flissa.pdf" 
     },
