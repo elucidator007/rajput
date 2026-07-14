@@ -48,24 +48,15 @@ const AboutMe = () => {
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               <p>
-                I am Neha Rajput, a fashion design professional based in Chandigarh, Punjab, India. 
-                My academic foundation includes a Bachelor&apos;s degree in Fashion Design from NIIFT Mohali, 
-                complemented by specialized studies in fashion and textile design during my high school education. 
-                This comprehensive background has equipped me with a deep understanding of both the creative and technical 
-                aspects of the fashion industry.
+                I'm Neha Rajput. I completed my B.Sc. in Fashion Design from NIIFT Mohali. Currently, I'm working as a Junior Designer at Centex Export in the creative design team, where I work on flat knitwear for international brands like Next, Zara, H&M, and Calvin Klein, Tommy Hilfiger, etc.
               </p>
               
               <p>
-                My core competencies lie in digital fashion design and development. I am proficient in creating 
-                3D garments using Clo3D, producing detailed fashion illustrations with Krita, developing comprehensive 
-                tech packs using Adobe Illustrator, and designing intricate prints with Adobe Photoshop. My expertise 
-                across these platforms enables me to deliver high-quality digital assets for various fashion applications
+              My role includes yarn selection, creating CADs and jacquards in Apex Fiz, preparing tech packs, coordinating with sampling teams, and developing products according to buyer requirements.
               </p>
 
               <p>
-                When I&apos;m not in my atelier, you&apos;ll find me exploring art galleries, traveling 
-                for inspiration, or collaborating with emerging artists to push the boundaries 
-                of fashion design.
+              I enjoy combining creativity with technical development, and recently I've also mastered Shima Seiki Apex Fiz, which has significantly improved my knitwear design capabilities. I'm now looking for an opportunity where I can contribute to a larger design team, learn more, and grow professionally.
               </p>
             </div>
 
